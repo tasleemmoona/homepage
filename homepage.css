@@ -1,0 +1,1512 @@
+body {
+  margin: 0;
+  font-family: 'Calibri';
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #1B2631;
+  padding-left: 100px;
+}
+
+#div1, #div2 {
+  font-size-adjust: 0.58;
+}
+
+.topnav button {
+  float: left;
+  padding: 5px;
+  color: white;
+  background-color: #1B2631;
+  border: none;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav #a1 {
+  padding: 10px;
+  text-align: left;
+}
+
+.topnav a:hover:not(#a1) {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 97%;
+  height: 80%;
+  padding: 20px;
+  bottom: 10px;
+}
+
+
+.container h1 {
+  position: absolute;
+  top: 0px;
+  left: 120px;
+  font-size: 60px;
+  width: 600px;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.container #s1 {
+  color: orange;
+  font-size: 68px;
+}
+
+#img1 {
+  width: 100%;
+  height: 590px;
+}
+
+#img1:hover {
+  border: 2px solid darkorange;
+}
+
+.container p {
+  position: absolute;
+  top: 40%;
+  left: 120px;
+  font-size: 25px;
+  width: 300px;
+  text-align: left;
+}
+
+.rcorners1 {
+  position: absolute;
+  float: right;
+  top: 0px;
+  right: 120px;
+  border-radius: 25px;
+  background: hsl(0,0%,75%,0.1);
+  padding: 20px; 
+  width: 400px;
+  height: 180px;  
+}
+
+.rcorners1 #img2 {
+  position: absolute;
+  top: 17%;
+  right: 330px;
+}
+
+.rcorners1 #p2 {
+  position: absolute;
+  top: 40%;
+  right: 80px;
+  width: 300px;
+  height: 100px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.rcorners1 #p1 {
+  position: absolute;
+  top: 16%;
+  right: 120px;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.rcorners1:hover {
+  border-radius: 0px;
+}
+
+.rcorners1 button {
+  position: absolute;
+  top: 170px;
+  right: 275px;
+  border: 2px solid orange;
+  background: transparent;
+  border-radius: 25px;
+  color: orange;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.rcorners2 {
+  position: absolute;
+  float: right;
+  top: 230px;
+  right: 120px;
+  border-radius: 25px;
+  background: hsl(0,0%,75%,0.1);
+  padding: 20px; 
+  width: 400px;
+  height: 180px;  
+}
+
+.rcorners2 #img2 {
+  position: absolute;
+  top: 35px;
+  right: 330px;
+}
+
+.rcorners2 #p2 {
+  position: absolute;
+  top: 85px;
+  right: 80px;
+  width: 300px;
+  height: 100px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.rcorners2 #p1 {
+  position: absolute;
+  top: 35px;
+  right: 90px;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.rcorners2:hover {
+  border-radius: 0px;
+}
+
+.rcorners2 button {
+  position: absolute;
+  top: 170px;
+  right: 265px;
+  border: 2px solid orange;
+  background: transparent;
+  border-radius: 25px;
+  color: orange;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#h1 {
+  position: absolute;
+  color: #FCA61B;
+  left: 110px;
+  width: 300px;
+}
+
+.div_img {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.images {
+  position: relative;
+  float: left;
+  top: 40px;
+  left: 110px;
+  color: white;
+}
+
+.images .data {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  top: 1px;
+  width: 87.8%;
+  height: 92%;
+  padding: 20px;
+}
+
+.images img {
+  width: 320px;
+  height: 550px;
+}
+
+.images h1 {
+  position: absolute;
+  left: 25px;
+  top: 250px;
+  width: 230px;
+  height: 100px;
+  font-size: 40px;
+}
+
+.images p {
+  position: absolute;
+  left: 25px;
+  top: 370px;
+  font-size: 24px;
+}
+
+.images button {
+  position: absolute;
+  left: 25px;
+  top: 440px;
+  border: 2px solid white;
+  background: transparent;
+  border-radius: 25px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.images1 {
+  position: relative;
+  top: 40px;
+  left: 155px;
+  color: white;
+}
+
+.images1 .data1 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  top: 1px;
+  left: 320px;
+  width: 20.7%;
+  height: 92%;
+  padding: 20px;
+}
+
+.images1 img {
+  width: 320px;
+  height: 550px;
+}
+
+.images1 h1 {
+  position: absolute;
+  left: 25px;
+  top: 250px;
+  width: 150px;
+  font-size: 40px;
+}
+
+.images1 p {
+  position: absolute;
+  left: 25px;
+  top: 370px;
+  font-size: 24px;
+}
+
+.images1 button {
+  position: absolute;
+  left: 25px;
+  top: 440px;
+  border: 2px solid white;
+  background: transparent;
+  border-radius: 25px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.images2 {
+  position: relative;
+  float:right;
+  top: 0px;
+  right: 345px;
+  color: white;
+}
+
+.images2 .data2 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  top: 0px;
+  right: 1px;
+  width: 86.9%;
+  height: 92%;
+  padding: 20px;
+}
+
+.images2 img {
+  width: 320px;
+  height: 550px;
+}
+
+.images2 h1 {
+  position: absolute;
+  left: 25px;
+  top: 195px;
+  width: 180px;
+  height: 150px;
+  font-size: 40px;
+}
+
+.images2 p {
+  position: absolute;
+  left: 25px;
+  top: 370px;
+  font-size: 24px;
+}
+
+.images2 button {
+  position: absolute;
+  left: 25px;
+  top: 440px;
+  border: 2px solid white;
+  background: transparent;
+  border-radius: 25px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.arrows {
+  position: relative;
+  float: right;
+  top: 200px;
+  right: -40px;
+}
+
+.circle, .circle1{
+  text-align:center;
+  height: 40px;
+  width: 40px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  color: orange;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  padding-top: 17px;
+}
+.circle1 div{
+  transform: rotate(-180deg);
+}
+
+#h2 {
+  position: absolute;
+  color: #FCA61B;
+  left: 120px;
+  width: 170px;
+}
+
+.block1 {
+  position: absolute;
+  float: left;
+  top: 1570px;
+  left: 120px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px; 
+  width: 460px;
+  height: 257px;
+  line-height: 1; 
+}
+
+.block1 .square {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 10%;
+  background-color: #0896CA;
+  top: 30px;
+  left: 30px;
+  padding: 5px;
+}
+
+.block1 #p1 {
+  position: absolute;
+  top: 30px;
+  left: 107px;
+  width: 310px;
+  color: #3D3F3F;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.block1 button {
+  position: absolute;
+  left: 107px;
+  top: 100px;
+  border: 2px solid #0896CA;
+  background: transparent;
+  border-radius: 25px;
+  color: #0896CA;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.block1 #p2 {
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  width: 350px;
+  color: #808080;
+  font-size: 24px;
+}
+
+.block2 {
+  position: absolute;
+  float: right;
+  top: 1570px;
+  right: 180px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px; 
+  width: 460px;
+  height: 257px;
+  line-height: 1; 
+}
+
+.block2 .square {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 10%;
+  background-color: #9E5FD2;
+  top: 30px;
+  right: 410px;
+  padding: 5px;
+}
+
+.block2 #p1 {
+  position: absolute;
+  top: 30px;
+  right: 82px;
+  width: 310px;
+  color: #3D3F3F;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.block2 button {
+  position: absolute;
+  right: 225px;
+  top: 100px;
+  border: 2px solid #9E5FD2;
+  background: transparent;
+  border-radius: 25px;
+  color: #9E5FD2;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.block2 #p2 {
+  position: absolute;
+  right: 40px;
+  top: 150px;
+  width: 350px;
+  color: #808080;
+  font-size: 24px;
+}
+
+.block3 {
+  position: absolute;
+  float: left;
+  top: 1910px;
+  left: 120px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px; 
+  width: 460px;
+  height: 257px;
+  line-height: 1; 
+}
+
+.block3 .square {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 10%;
+  background-color: #70F140;
+  top: 30px;
+  left: 30px;
+  padding: 5px;
+}
+
+.block3 #p1 {
+  position: absolute;
+  top: 30px;
+  left: 107px;
+  width: 310px;
+  color: #3D3F3F;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.block3 button {
+  position: absolute;
+  left: 107px;
+  top: 100px;
+  border: 2px solid #70F140;
+  background: transparent;
+  border-radius: 25px;
+  color: #70F140;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.block3 #p2 {
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  width: 350px;
+  color: #808080;
+  font-size: 24px;
+}
+
+.block4 {
+  position: absolute;
+  float: right;
+  top: 1910px;
+  right: 180px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px; 
+  width: 460px;
+  height: 257px;
+  line-height: 1; 
+}
+
+.block4 .square {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 10%;
+  background-color: #FEC52F;
+  top: 30px;
+  right: 410px;
+  padding: 5px;
+}
+
+.block4 #p1 {
+  position: absolute;
+  top: 30px;
+  right: 82px;
+  width: 310px;
+  color: #3D3F3F;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.block4 button {
+  position: absolute;
+  right: 245px;
+  top: 100px;
+  border: 2px solid #FEC52F;
+  background: transparent;
+  border-radius: 25px;
+  color: #FEC52F;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.block4 #p2 {
+  position: absolute;
+  right: 40px;
+  top: 150px;
+  width: 350px;
+  color: #808080;
+  font-size: 24px;
+}
+
+#h3 {
+  position: absolute;
+  color: #FCA61B;
+  left: 110px;
+  width: 170px;
+}
+
+.blog {
+  position: absolute;
+  float: left;
+}
+
+.blog1 {
+  position: absolute;
+  left: 110px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+  width: 305px;
+  height: 475px;
+  line-height: 1; 
+}
+
+.blog1 img {
+  height: 275px;
+  width: 305px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.blog1 .square {
+  position: absolute;
+  height: 275px;
+  width: 60px;
+  color: white;
+  border-radius: 0px 5px 0px 0px;
+  background-color: #121E32;
+  left: 244px;
+}
+
+.blog1 #p1 {
+  position: absolute;
+  top: 295px;
+  left: 20px;
+  width: 250px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.blog1 button {
+  position: absolute;
+  left: 20px;
+  top: 430px;
+  border: 1px solid orange;
+  background: transparent;
+  border-radius: 25px;
+  color: orange;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.blog1 #p2 {
+  position: absolute;
+  left: 20px;
+  top: 375px;
+  color: grey;
+  font-size: 22px;
+}
+
+.blog2 {
+  position: absolute;
+  top: 0px;
+  left: 447px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+  width: 305px;
+  height: 475px;
+  line-height: 1; 
+}
+
+.blog2 img {
+  height: 275px;
+  width: 305px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.blog2 .square {
+  position: absolute;
+  height: 275px;
+  width: 60px;
+  color: white;
+  border-radius: 0px 5px 0px 0px;
+  background-color: #121E32;
+  left: 244px;
+}
+
+.blog2 #p1 {
+  position: absolute;
+  top: 295px;
+  left: 20px;
+  width: 250px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.blog2 button {
+  position: absolute;
+  left: 20px;
+  top: 430px;
+  border: 1px solid orange;
+  background: transparent;
+  border-radius: 25px;
+  color: orange;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.blog2 #p2 {
+  position: absolute;
+  left: 20px;
+  top: 375px;
+  color: grey;
+  font-size: 22px;
+}
+
+.blog3 {
+  position: absolute;
+  top: 0px;
+  left: 782px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+  width: 305px;
+  height: 475px;
+  line-height: 1; 
+}
+
+.blog3 img {
+  height: 275px;
+  width: 305px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.blog3 .square {
+  position: absolute;
+  height: 275px;
+  width: 60px;
+  color: white;
+  border-radius: 0px 5px 0px 0px;
+  background-color: #121E32;
+  left: 244px;
+}
+
+.blog3 #p1 {
+  position: absolute;
+  top: 295px;
+  left: 20px;
+  width: 250px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.blog3 button {
+  position: absolute;
+  left: 20px;
+  top: 430px;
+  border: 1px solid orange;
+  background: transparent;
+  border-radius: 25px;
+  color: orange;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.blog3 #p2 {
+  position: absolute;
+  left: 20px;
+  top: 375px;
+  color: grey;
+  font-size: 22px;
+}
+
+.blog .arrows {
+  position: absolute;
+  top: 200px;
+  left: 1120px;
+}
+
+.blog .circle,.blog .circle1{
+  text-align:center;
+  height: 40px;
+  width: 40px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  color: orange;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  padding-top: 17px;
+}
+
+.blog .circle1 div{
+  transform: rotate(-180deg);
+}
+
+#h4 {
+  position: absolute;
+  color: #FCA61B;
+  left: 110px;
+}
+
+#lt {
+  position: absolute;
+  left: 140px;
+  top: 3100px;
+}
+
+#gt {
+  position: absolute;
+  float: right;
+  top: 3100px;
+  right: 220px;
+}
+
+.box1 {
+  position: absolute;
+  top: 3025px;
+  left: 260px;
+  width: 430px;
+  height: 230px;
+  border-radius: 20px;
+  background-color: #9EB2DE;
+  opacity: 0.3;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.box2 {
+  position: absolute;
+  top: 3015px;
+  left: 272px;
+  width: 430px;
+  height: 250px;
+  border-radius: 20px;
+  background-color: #9EB2DE;
+  opacity: 0.7;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.box3 {
+  position: absolute;
+  top: 3000px;
+  left: 284px;
+  width: 540px;
+  height: 280px;
+  border-radius: 20px;
+  background-color: #3A81D2;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.box3 p {
+  position: absolute;
+  left: 95px;
+  top: 40px;
+  color: white;
+  width: 400px;
+  font-size: 21px;
+  font-family: 'Segoe UI Light';
+  text-align: justify;
+}
+
+.abt {
+  position: absolute;
+  float: right;
+  right: 310px;
+  top: 3040px;
+  font-size: 22px;
+  text-align: center;
+  line-height: 15px;
+}
+
+#pic {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+
+.dot, .dot1, .dot2, .dot3, .dot5, .dot6 {
+    height: 8px;
+    width: 8px;
+    background-color: #C8C8C8;
+    border-radius: 50%;
+}
+
+.dot4 {
+    height: 8px;
+    width: 8px;
+    background-color: #3A81D2;
+    border-radius: 50%;
+}
+
+.dot {
+  position: absolute;
+  top: 3315px;
+  left: 520px;
+}
+
+.dot1 {
+  position: absolute;
+  top: 3315px;
+  left: 540px;
+}
+
+.dot2 {
+  position: absolute;
+  top: 3315px;
+  left: 560px;
+}
+
+.dot3 {
+  position: absolute;
+  top: 3315px;
+  left: 580px;
+}
+
+.dot4 {
+  position: absolute;
+  top: 3315px;
+  left: 600px;
+}
+
+.dot5 {
+  position: absolute;
+  top: 3315px;
+  left: 620px;
+}
+
+.dot6 {
+  position: absolute;
+  top: 3315px;
+  left: 640px;
+}
+
+.details {
+  position: absolute;
+  left: 110px;
+  border-radius: 20px;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+  width: 540px;
+  height: 500px;
+}
+input {
+  border: 2px solid #647DB4;
+  height: 45px;
+  width: 35%;
+  border-radius: 5px;
+}
+
+.details p {
+  color: #2C54A9;
+  position: absolute;
+  left: 45px;
+  top: 15px;
+}
+
+.details button {
+  position: absolute;
+  top: 435px;
+  left: 320px;
+  color: #F9F9F9;
+  background-color: #163373;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: 17px;
+  font-family: 'Segoe UI Light';
+}
+
+.details #lab_name {
+  position: absolute;
+  left: 85px;
+  top: 73px;
+  width: 30px;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+  color: grey;
+}
+
+.details #name {
+  position: absolute;
+  left: 45px;
+  top: 80px;
+}
+
+.details #email {
+  position: absolute;
+  left: 285px;
+  top: 80px;
+}
+
+.details #lab_email {
+  position: absolute;
+  left: 325px;
+  top: 73px;
+  width: 40px;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+  color: grey;
+}
+
+.details #lab_sub {
+  position: absolute;
+  left: 85px;
+  top: 153px;
+  width: 34px;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+  color: grey;
+}
+
+.details #sub {
+  position: absolute;
+  left: 45px;
+  top: 160px;
+}
+
+.details #comp {
+  position: absolute;
+  left: 285px;
+  top: 160px;
+}
+
+.details #lab_comp {
+  position: absolute;
+  left: 325px;
+  top: 153px;
+  width: 45px;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+  color: grey;
+}
+
+.details #txt {
+  position: absolute;
+  left: 45px;
+  top: 240px;
+  height: 110px;
+  width: 80%;
+}
+
+.details #lab_txt {
+  position: absolute;
+  left: 75px;
+  top: 234px;
+  width: 67px;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+  color: grey;
+}
+
+.contact {
+  position: absolute;
+  top: 3750px;
+  left: 735px;
+  font-family: 'Segoe UI Light';
+}
+
+.contact img {
+  height: 30px;
+  width: 30px;
+}
+
+.contact span {
+  font-size: 14px;
+  color: grey;
+}
+
+.contact p {
+  font-size: 22px;
+  color: #163373;
+  font-weight: bold;
+}
+
+.ph span {
+  position: absolute;
+  left: 50px;
+  top: 0px;
+}
+
+.ph p {
+  position: absolute;
+  left: 50px;
+  top: 5px;
+  width: 300px;
+}
+
+.em img {
+  position: absolute;
+  top: 85px; 
+}
+
+.em span {
+  position: absolute;
+  left: 50px;
+  top: 89px;
+}
+
+.em p {
+  position: absolute;
+  left: 50px;
+  top: 90px;
+}
+
+.loc i {
+  position: absolute;
+  top: 165px; 
+  left: 7px;
+}
+
+.loc span {
+  position: absolute;
+  left: 50px;
+  top: 167px;
+}
+
+.loc p {
+  position: absolute;
+  left: 50px;
+  top: 170px;
+  width: 280px;
+}
+
+.footer {
+  background-color: #121E32;
+  width: 100%;
+  height: 490px;
+  color: #F9F9F9;
+}
+
+.footer span {
+  position: absolute;
+  left: 80px;
+  top: 4225px;
+  font-size: 32px;
+  color: white;
+}
+
+.footer p {
+  text-align: justify;
+  line-height: 1.4;
+  font-family: "Segoe UI Light";
+}
+
+.footer #p1 {
+  position: absolute;
+  left: 80px;
+  top: 4260px;
+  width: 250px;
+}
+
+.footer #p2 {
+  position: absolute;
+  left: 80px;
+  top: 4350px;
+  width: 260px;
+}
+
+.line, .line1 {
+  font-family: 'Segoe UI Light';
+}
+
+.line #l1 {
+  position: absolute;
+  left: 415px;
+  top: 4225px;
+}
+
+.line #l2 {
+  position: absolute;
+  left: 415px;
+  top: 4243px;
+}
+
+.line #l3 {
+  position: absolute;
+  left: 415px;
+  top: 4261px;
+}
+
+.line #l4 {
+  position: absolute;
+  left: 415px;
+  top: 4279px;
+}
+
+.line #l5 {
+  position: absolute;
+  left: 415px;
+  top: 4297px;
+}
+
+.line #l6 {
+  position: absolute;
+  left: 415px;
+  top: 4315px;
+}
+
+.line #l7 {
+  position: absolute;
+  left: 415px;
+  top: 4333px;
+}
+
+.line #l8{
+  position: absolute;
+  left: 415px;
+  top: 4351px;
+}
+
+.line #l9{
+  position: absolute;
+  left: 415px;
+  top: 4369px;
+}
+
+.line #l10{
+  position: absolute;
+  left: 415px;
+  top: 4387px;
+}
+
+.line #l11{
+  position: absolute;
+  left: 415px;
+  top: 4405px;
+}
+
+.line #l12{
+  position: absolute;
+  left: 415px;
+  top: 4423px;
+}
+
+.line #l13{
+  position: absolute;
+  left: 415px;
+  top: 4441px;
+}
+
+.footer #p3 {
+  position: absolute;
+  left: 475px;
+  top: 4245px;
+}
+
+.footer #p4 {
+  position: absolute;
+  left: 700px;
+  top: 4245px;
+}
+
+.footer #p5 {
+  position: absolute;
+  left: 475px;
+  top: 4295px;
+}
+
+.footer #p6 {
+  position: absolute;
+  left: 700px;
+  top: 4295px;
+}
+
+.footer #p7 {
+  position: absolute;
+  left: 475px;
+  top: 4345px;
+}
+
+.footer #p8 {
+  position: absolute;
+  left: 700px;
+  top: 4345px;
+}
+
+.footer #p9 {
+  position: absolute;
+  left: 475px;
+  top: 4395px;
+}
+
+.footer #p10 {
+  position: absolute;
+  left: 700px;
+  top: 4395px;
+}
+
+.line1 {
+  position: absolute;
+  left: 880px;
+}
+
+.line1 #l1 {
+  position: absolute;
+  top: 69px;
+}
+
+.line1 #l2 {
+  position: absolute;
+  top: 77px;
+}
+
+.line1 #l3 {
+  position: absolute;
+  top: 101px;
+}
+
+.line1 #l4 {
+  position: absolute;
+  top: 125px;
+}
+
+.line1 #l5 {
+  position: absolute;
+  top: 149px;
+}
+
+.line1 #l6 {
+  position: absolute;
+  top: 173px;
+}
+
+.line1 #l7 {
+  position: absolute;
+  top: 197px;
+}
+
+.line1 #l8{
+  position: absolute;
+  top: 221px;
+}
+
+.line1 #l9{
+  position: absolute;
+  top: 245px;
+}
+
+.line1 #l10{
+  position: absolute;
+  top: 260px;
+}
+
+.line1 #l11{
+  position: absolute;
+  top: 284px;
+}
+
+.ph1, .em1, .loc1 {
+  font-family: 'Segoe UI Light';
+}
+
+.ph1 img {
+  position: absolute;
+  left: 1035px;
+  top: 4280px;
+  height: 30px;
+  width: 30px;
+}
+
+.ph1 span {
+  position: absolute;
+  left: 1075px;
+  top: 4277px;
+  font-size: 12px;
+}
+
+.ph1 p {
+  position: absolute;
+  left: 1075px;
+  top: 4285px;
+  font-size: 10px;
+}
+
+.em1 img {
+  position: absolute;
+  left: 1035px;
+  top: 4340px;
+  height: 30px;
+  width: 30px;
+}
+
+.em1 span {
+  position: absolute;
+  left: 1075px;
+  top: 4340px;
+  font-size: 12px;
+}
+
+.em1 p {
+  position: absolute;
+  left: 1075px;
+  top: 4348px;
+  font-size: 10px;
+}
+
+.loc1 i {
+  position: absolute;
+  left: 1035px;
+  top: 4400px;
+  height: 30px;
+  width: 30px;
+}
+
+.loc1 span {
+  position: absolute;
+  left: 1063px;
+  top: 4400px;
+  font-size: 12px;
+}
+
+.loc1 p {
+  position: absolute;
+  left: 1063px;
+  top: 4410px;
+  font-size: 10px;
+}
+
+.copy {
+  position: absolute;
+  left: 483px;
+  top: 4585px;
+}
